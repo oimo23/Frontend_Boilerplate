@@ -1,0 +1,22 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel src/index.html -d public",
+    "format": "prettier --write src/js/*.js",
+    "lint": "eslint src/js/*.js",
+    "test": "jest"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": true
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "jest": "^24.5.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "prettier": "^1.16.4"
+  }
+}

@@ -1,0 +1,15 @@
+$baseColor: #efefef;
+
+body {
+  background: $baseColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    text-align: center;
+  }
+}
